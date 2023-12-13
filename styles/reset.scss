@@ -1,0 +1,140 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+p,
+blockquote,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+pre,
+form,
+fieldset,
+legend,
+button,
+input,
+textarea,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font: 12px/1.5tahoma, arial, \5b8b\4f53;
+}
+
+address,
+cite,
+dfn,
+em,
+var {
+  font-style: normal;
+}
+
+// code,
+// kbd,
+// pre,
+// samp {
+//     // font-family: couriernew, courier, monospace;
+// }
+
+// small {
+//   font-size: 12px;
+// }
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+sup {
+  vertical-align: text-top;
+}
+
+sub {
+  vertical-align: text-bottom;
+}
+
+legend {
+  color: #000;
+}
+
+fieldset,
+img {
+  border: 0;
+}
+
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 5px;
+  background: url("/images/body-bg.png") #fffff3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: url("/images/title-bg.png") #5783b0;
+  border: 3px solid #fffff3;
+}
+
+.tc {
+  text-align: center;
+}
+
+.el-notification {
+  --el-notification-width: 450px;
+  --el-bg-color-overlay: #151c2c;
+  --el-notification-radius: 14px;
+  border: 0;
+  .el-notification__title {
+    color: #80909d;
+  }
+  .el-notification__content {
+    color: #ffffff;
+  }
+}
+
+.messageDropdown {
+  background: transparent !important;
+  border: 0 !important;
+  width: 100px;
+  .el-popper__arrow {
+    display: none;
+  }
+}
